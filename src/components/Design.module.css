@@ -1,0 +1,30 @@
+
+.design{
+  display: flex;
+  align-items: center;
+  background-color : white;
+  position: relative;
+  margin-top: 0rem;
+}
+body{
+  padding: 0;
+}
+.content{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width : 100%;
+}
+.email{
+  font-size: 3rem;
+  /* margin-top: 10rem; */
+  /* margin-bottom: 2rem; */
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.icons{
+  font-size: 2rem;
+  background-color : black;
+}
+

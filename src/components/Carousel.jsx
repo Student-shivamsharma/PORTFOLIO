@@ -1,0 +1,79 @@
+
+
+
+import React from 'react';
+import styles from './Carousel.module.css';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import amazon from '../images/amazon.webp';
+import bakery from '../images/bakery.jpg';
+import tictactoe from '../images/tictactoe.jpg';
+import calculator from '../images/calculator.jpg';
+import rockpaperscissor from '../images/rockpaperscissor.jpg';
+
+const Carousel = () => {
+  const clients = [
+    {
+      img: amazon,
+      review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad obcaecati repellat corrupti placeat eum corporis labore saepe sit suscipit exercitationem voluptatum recusandae, pariatur id ratione at expedita facere eligendi esse. Laudantium quas est quasi ea sapiente.",
+      link : "https://student-shivamsharma.github.io/AMAZON-CLONE/",
+      name : "Amazon Clone"
+    },
+    {
+      img: calculator,
+      review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad obcaecati repellat corrupti placeat eum corporis labore saepe sit suscipit exercitationem voluptatum recusandae, pariatur id ratione at expedita facere eligendi esse. Laudantium quas est quasi ea sapiente.",
+      link : "https://student-shivamsharma.github.io/Calculator/",
+      name : "Calculator"
+    },
+    {
+      img: rockpaperscissor,
+      review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad obcaecati repellat corrupti placeat eum corporis labore saepe sit suscipit exercitationem voluptatum recusandae, pariatur id ratione at expedita facere eligendi esse. Laudantium quas est quasi ea sapiente.",
+      link : "https://student-shivamsharma.github.io/rockGame/",
+      name : "ROCK PAPER SCISSOR"
+    },
+    {
+      img: tictactoe,
+      review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad obcaecati repellat corrupti placeat eum corporis labore saepe sit suscipit exercitationem voluptatum recusandae, pariatur id ratione at expedita facere eligendi esse. Laudantium quas est quasi ea sapiente.",
+      link : "https://student-shivamsharma.github.io/TICtactoe/",
+      name : "TIC_TAC_TOE GAME"
+    },
+    {
+      img: bakery,
+      review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad obcaecati repellat corrupti placeat eum corporis labore saepe sit suscipit exercitationem voluptatum recusandae, pariatur id ratione at expedita facere eligendi esse. Laudantium quas est quasi ea sapiente.",
+      link : "https://student-shivamsharma.github.io/AMAZON-CLONE/",
+      name : "Amazon"
+    },
+  ];
+
+  return (
+    <div className={styles.wrapper} style={{width : '100%' , overflow : 'hidden'}}>
+      <div className={styles.heading}>
+        <span>Clients always get</span>
+        <span>Exceptional Work</span>
+        <span>From me..</span>
+        </div>
+
+      <Swiper
+        modules={[Pagination]}
+        slidesPerView={1}
+        pagination={{ clickable: true }}
+        style={{width : '100vw'}}
+      >
+        {clients.map((client, index) => (
+          <SwiperSlide key={index}>
+            <div className={styles.test}>
+              <img src={client.img} height = "200px" alt={`Client ${index + 1}`} />
+              <span>{client.review}</span>
+              <a href={client.link} className={styles.link}>{client.name}</a>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </div>
+
+  );
+};
+
+export default Carousel;

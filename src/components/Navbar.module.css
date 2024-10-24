@@ -1,0 +1,157 @@
+ body{
+  position: relative;
+ }
+ .navbar{
+   /* border : 2px solid black;  */
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  /* position: sticky; */
+  top : 0;
+  z-index: 1;
+  /* border-bottom: 4px solid black; */
+}
+.navLeft{
+  flex: 3;
+   display: flex;
+   gap : 18px;
+   align-items: center;
+}
+.navName{
+  font-size: 2.3rem;
+  font-weight: bolder;
+}
+.navRight{
+  flex: 1;
+   display: flex;
+   justify-content:flex-end;
+   align-items: center;
+   font-weight: 500;
+}
+.navList{
+  flex: 10;
+  margin-left: 100px;
+  text-align: center;
+}
+.navList > ul{
+  display: flex;
+  gap : 3rem;
+  margin-right: 4rem;
+  font-size: 1.4rem;
+  font-weight: bolder;
+}
+.navList ul li:hover{
+  transition: 2s ease-in 0s;
+  cursor: pointer;
+  color : #FCA61F;
+  /* text-transform: uppercase; */
+}
+.navList ul{
+  list-style: none;
+ 
+}
+
+.navButton{
+  flex: 2;
+  margin-right: 0.7rem;
+}
+.navButton{
+   border: none;
+   font-size: 3vmin;
+   padding: 10px;
+   background-color: #fbc52fb2 ;
+   box-shadow: 0px 20px 24px 3px rgba(251,161,40);
+   border-radius: 24px;
+   width: 150px;
+}
+.navButton:hover{
+  background-color: white;
+  cursor: pointer;
+  color : orange;
+  border: 1px solid orange;
+}
+.line{
+  border: 2px solid black;
+  width : 300vh;
+}
+
+@media (max-width : 500px){
+  .navList{
+    display: none;
+  }
+} 
+ 
+
+
+
+
+@media(max-width: 700px) {
+  .navConnect {
+    display: none;
+  }
+  
+  .menuOpen {
+    display: block;
+    position: fixed;
+    right: 30px;
+    font-size: 5rem;
+  }
+  
+  .menuClose {
+     font-size: 5rem;
+    display: block;
+    position: relative;
+    top: 30px;
+    left: 290px;
+    width: 30px; 
+   
+  }
+  
+  .navList {
+    position: fixed;
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start; 
+    border-radius: 30px;
+    top: 0;
+    gap: 30px; 
+    /* background-color: #1F0016; */
+    background-color: white;
+    border: 10px solid orange;
+    width: 350px;
+    height: 100%;
+    z-index: 2;
+    transition: right 0.5s;
+    right: -350px;
+  }
+  
+  .navList ul {
+    padding: 0; 
+    margin: 0;
+    list-style-type: none; 
+    width: 100%;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navList li {
+    font-size: 5rem;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+    padding: 10px 10px; 
+    width: 100%; 
+    text-align: left; 
+  }
+  
+  .visible {
+    display: block; 
+  }
+  
+  .hidden {
+    display: none; 
+  }
+}

@@ -1,0 +1,36 @@
+.card{
+  width : 12rem;
+  height : 15rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap : 1rem;
+  width : 10rem;
+  text-align: center;
+  /* background : rgba(255,255,255,0.26); */
+  border : 10px solid rgba(251,161,40);
+  border-radius: 15px;
+  padding: 0px 26px 2rem 26px;
+}
+
+.trophy{
+  font-size: 5rem;
+  color : rgba(251,161,40);
+  transform: scale(0.6);
+}
+.btn{
+  background: linear-gradient(orange,pink,red);
+  border-radius: 7px;
+  box-shadow: 0px 19px 60px rgba(0,0,0,0.08);
+  border: none;
+  padding: 15px;
+  width: 100px;
+  font-size: 1.3rem;
+
+}
+@media screen and (max-width : 480px){
+  .card{
+    width: auto;
+  }
+}

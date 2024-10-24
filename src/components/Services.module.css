@@ -1,0 +1,75 @@
+.services{
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  height: 90vh;
+  /* background-color: aqua; */
+  margin-bottom: 13rem;
+  margin-top: 9rem;
+  /* border-bottom: 5px solid white; */
+  padding-bottom: 50px;
+  /* border-bottom: 5px solid black; */
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.awes{
+  font-size: 3.2rem;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+.service{
+  font-size: 3rem;
+  font-weight: bolder;
+  color : rgba(251,161,40);
+  margin: 20px 0px;
+  
+}
+.lorem{
+  font-size: 1.3rem;
+
+}
+.CV{
+  border: none;
+  font-size: 3vmin;
+  padding: 10px;
+  background-color: #fbc52fb2 ;
+  box-shadow: 0px 20px 24px 3px rgba(251,161,40);
+  border-radius: 24px;
+  width: 180px;
+  margin-top: 100px;
+  padding: 16px;
+}
+.cards{
+  position: relative;
+}
+.cards>*{
+  position: absolute;
+}
+.codesignal{
+  font-size: 4rem;
+}
+@media screen and (max-width : 500px) {
+  .services{
+    margin-top : 0;
+   flex-direction: column;
+   gap: 5rem;
+   height: 100rem;
+   padding: 0;
+  }
+  .text{
+    margin-top: 15vmin;
+  }
+  .cards{
+    display: flex;
+    flex-direction: column;
+    gap: 24rem;
+    position: relative;
+    left : 60px;
+  }
+  .cards > *{
+    position: static;
+  }
+  
+}
