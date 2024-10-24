@@ -28,3 +28,20 @@ body{
   background-color : black;
 }
 
+@media (max-width : 500px) {
+  .design{
+    position: relative;
+    top : 40rem;
+  }
+  .email{
+    /* margin-bottom: 2rem; */
+    position: relative;
+    top : 3rem;
+  }
+  .icons{
+    position: relative;
+    top : 5rem;
+    font-size: 2rem;
+  }
+  
+}

@@ -1,4 +1,4 @@
-.services{
+.Skills{
   padding: 0 3rem 0 3rem;
   display: flex;
   height: 90vh;
@@ -19,7 +19,7 @@
   font-weight: bolder;
   margin-top: 20px;
 }
-.service{
+.Skills{
   font-size: 3rem;
   font-weight: bolder;
   color : rgba(251,161,40);
@@ -51,7 +51,13 @@
   font-size: 4rem;
 }
 @media screen and (max-width : 500px) {
-  .services{
+  .awes{
+    font-size: 3.2rem;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 2rem;
+  }
+  .Skills{
     margin-top : 0;
    flex-direction: column;
    gap: 5rem;

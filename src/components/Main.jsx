@@ -13,7 +13,8 @@ const Main = () => {
       <div className={styles.mainName}>
         <span className={styles.hello}>Hello! I Am </span>
         <span className={styles.shivam}> Shivam Sharma </span>
-        <span className={styles.text}> Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quibusdam tempora, veniam corporis quas saepe consequatur maiores quae voluptas quasi </span>
+        <span className={styles.text}> 
+          I am Shivam Sharma from Shamli . Currently pursuing B.Tech in CSIT branch from #AkGEC. And my passion lies in Web Development and i am excited to learn and enhance ny skills and to explore opportunities in this field  </span>
       </div>
       <button className={styles.mainButton}>Hire Me</button>
       <div className={styles.mainIcons}>

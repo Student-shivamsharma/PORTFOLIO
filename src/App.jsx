@@ -2,7 +2,7 @@
 import './App.css'
 import Navbar from './components/navbar'
 import Main from './components/Main'
-import Services from './components/Services'
+import Skills from './components/Skills'
 import Experience from './components/Experience'
 import Carousel from './components/carousel'
 import Contact from './components/Contact'
@@ -18,7 +18,7 @@ function App() {
     <div className="App" style={{background : darkMode ? 'black' : '' , color : darkMode ? 'white'  : ''}}>
      <Navbar></Navbar>
      <Main></Main>
-     <Services></Services>
+     <Skills></Skills>
      <Aboutme/>
      <Experience></Experience>
      <Carousel></Carousel>

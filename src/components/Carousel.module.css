@@ -67,8 +67,12 @@
 
 
 @media  (max-width: 480px){
+ 
   .wrapper{
+    /* height : 10rem; */
       padding: 0;
+      position: relative;
+      right: 200px;
   }
   .test>img{
       width: 70px;

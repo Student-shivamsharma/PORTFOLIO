@@ -84,6 +84,12 @@
   width: 150px;
   margin: 0 auto; 
 }
+.mainButton:hover{
+  background-color: white;
+  cursor: pointer;
+  color : orange;
+  border: 1px solid orange;
+}
 
 .mainIcons {
   font-size: 3rem;
@@ -169,14 +175,23 @@ a{
     height: auto; 
     position: relative;
   }
-  .mainLeft {
+  /* .mainLeft {
     margin-top: 0;
     width: 100%;
   }
   .mainRight{
-    margin-left: 0px;
-    /* position: relative;
-    left : 25rem; */
+    /* margin-left: 0; 
+   
+   
+  } */
+   .mainLeft{
+    position: relative;
+    left : 5rem;
+   }
+   
+   .mainRight img{
+    position: relative;
+    /* right : 100rem; */
    }
   
   .hello,

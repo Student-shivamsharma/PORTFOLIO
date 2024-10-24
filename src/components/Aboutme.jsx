@@ -4,14 +4,25 @@ import amazon from '../images/amazon.webp';
 const Aboutme = () => {
   return (
     <>
-     <h1 className={styles.head}> 
+     <h1 className={styles.head} id="Aboutme"> 
           About me
         </h1>
-<div className={styles.about}>
+<div className={styles.about} >
     <div className={styles.background}>
       <h2>Background</h2>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores vitae ipsam rerum at id deleniti cumque, eos, debitis accusamus odio molestiae pariatur aperiam nisi dolores quam. Eveniet quis inventore earum!
-      Sequi eligendi iusto repudiandae totam veritatis inventore, distinctio labore! Magnam vel earum optio velit dignissimos? Optio omnis adipisci, dolorem id incidunt debitis quas, reprehenderit sunt labore dolores recusandae aliquid et!
+      Education:
+
+- Class X: SDS Convent School, CBSE Board (2020)
+    - Percentage: 80%
+    - Batch: Corona Batch (2020)
+
+- Class XII: Arpan Public School, CBSE Board (2023)
+    - Percentage: 91.34%
+
+- Currently Pursuing: Bachelor of Technology (B.Tech)
+    - Institute: Ajay Kumar Garg Engineering College (AKGEC)
+
+
     </div>
    
      <div className={styles.exp}>

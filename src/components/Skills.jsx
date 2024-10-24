@@ -1,19 +1,19 @@
 import React from "react";
-import styles from "./Services.module.css";
+import styles from "./Skills.module.css";
 import { SiCodesignal } from "react-icons/si";
 import { BsFillEmojiSunglassesFill } from "react-icons/bs";
 import { MdEmojiEvents } from "react-icons/md";
 import Card from "./Card";
 import { motion } from "framer-motion";
 
-const Services = () => {
+const Skills = () => {
   const transition = { duration: 1, type: "spring" };
   return (
-    <div className={styles.services} id="Services">
+    <div className={styles.Skills} id="Skills">
 
      <div className={styles.text}>
         <span className={styles.awes}>My Awesome</span>
-        <span className={styles.service}>Services</span>
+        <span className={styles.service}>Skills</span>
         <span className={styles.lorem}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad,
           <br />
@@ -31,7 +31,7 @@ const Services = () => {
         >
           <Card
             heading={"Devloper"}
-            details={"html , css, js , react js ,hello , react jshejmffh"}
+            details={"html , css, js : These are some skills whih i learn first for developer"}
           ></Card>
         </motion.div>
 
@@ -41,8 +41,8 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            heading={"Devloper"}
-            details={"Figma , Sketch, PhotoShop , Adobe , excel md"}
+            heading={"Learner"}
+            details={"C , C++ : Currently , Also known about C , C++ and practicing daily for CP "}
           />
         </motion.div>
 
@@ -64,4 +64,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Skills;

@@ -84,17 +84,17 @@ const Navbar = () => {
             <Link spy={true} to='Navbar' smooth={true}>
               <li>Home</li>
             </Link>
+            <Link spy={true} to='Aboutme' smooth={true}>
+              <li>About me</li>
+            </Link>
             <Link spy={true} to='Services' smooth={true}>
-              <li>Services</li>
+              <li>Skills</li>
+            </Link>
+            <Link spy={true} to='Carousel' smooth={true}>
+              <li>Portfolio</li>
             </Link>
             <Link spy={true} to='Experience' smooth={true}>
               <li>Experience</li>
-            </Link>
-            <Link spy={true} to='Portfolio' smooth={true}>
-              <li>Portfolio</li>
-            </Link>
-            <Link spy={true} to='test' smooth={true}>
-              <li>Test</li>
             </Link>
           </ul>
         </div>
