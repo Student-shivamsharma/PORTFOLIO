@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { FaSun } from "react-icons/fa";
 import { FaMoon } from "react-icons/fa";
-import styles from "./toggle.module.css"
+import styles from "./Toggle.module.css"
 import { themeContext } from '../Context';
 
 const Toggle = () => {
