@@ -12,8 +12,21 @@
         max-width: 100%; 
         box-sizing: border-box; 
         overflow: hidden; 
+        animation: scroll linear;
+        animation-timeline: view();
+        animation-range: entry 0;
+        margin-bottom: 3rem;
       }
-      
+      @keyframes scroll{
+        from{
+          opacity: 0;
+          scale: 0.5;
+        }
+        to{
+          opacity: 1;
+          scale : 1;
+        }
+      }
       .heading {
         align-self: start;
       }
