@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Aboutme.module.css'
-import amazon from '../images/amazon.webp';
+
 const Aboutme = () => {
   return (
     <>

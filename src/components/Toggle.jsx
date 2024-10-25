@@ -3,7 +3,7 @@ import { FaSun } from "react-icons/fa";
 import { FaMoon } from "react-icons/fa";
 import styles from "./toggle.module.css"
 import { themeContext } from '../Context';
-import { useState } from 'react';
+
 const Toggle = () => {
 
   const theme = useContext(themeContext)

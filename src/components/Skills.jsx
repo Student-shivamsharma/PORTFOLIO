@@ -1,7 +1,5 @@
 import React from "react";
 import styles from "./Skills.module.css";
-import { SiCodesignal } from "react-icons/si";
-import { BsFillEmojiSunglassesFill } from "react-icons/bs";
 import { MdEmojiEvents } from "react-icons/md";
 import Card from "./Card";
 import { motion } from "framer-motion";

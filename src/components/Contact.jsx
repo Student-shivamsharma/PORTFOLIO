@@ -4,8 +4,6 @@ import { MdMessage } from "react-icons/md";
 import { IoCall } from "react-icons/io5";
 import { FaLocationCrosshairs } from "react-icons/fa6";
 import { useRef } from 'react';
-// import emailjs from 'emailjs'
-import { MdEmail } from 'react-icons/md';
 const Contact = () => {
 
   const form = useRef();

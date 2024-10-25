@@ -4,7 +4,7 @@ import { FaLinkedin } from "react-icons/fa6";
 import { FaSquareGithub } from "react-icons/fa6";
 import styles from './Main.module.css'
 import Shivamphot from '../images/Shivamphot.png'
-import {motion} from 'framer-motion'
+
 
 const Main = () => {
   return (

@@ -1,7 +1,5 @@
 import React from 'react'
 import styles from './Card.module.css'
-import { SiCodesignal } from "react-icons/si";
-import { BsFillEmojiSunglassesFill } from "react-icons/bs";
 import { MdEmojiEvents } from "react-icons/md";
 const Card = ({heading , details}) => {
   return (
