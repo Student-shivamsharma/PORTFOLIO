@@ -8,16 +8,19 @@
   /* border-bottom: 5px solid white; */
   padding-bottom: 50px;
   /* border-bottom: 5px solid black; */
+ 
 }
 .text{
   display: flex;
   flex-direction: column;
   position: relative;
+  
 }
 .awes{
   font-size: 3.2rem;
   font-weight: bolder;
   margin-top: 20px;
+  
 }
 .Skills{
   font-size: 1rem;

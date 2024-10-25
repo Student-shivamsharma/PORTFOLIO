@@ -175,23 +175,18 @@ a{
     height: auto; 
     position: relative;
   }
-  /* .mainLeft {
-    margin-top: 0;
-    width: 100%;
-  }
-  .mainRight{
-    /* margin-left: 0; 
-   
-   
-  } */
+  
    .mainLeft{
     position: relative;
     left : 5rem;
    }
    
-   .mainRight img{
+   .mainRight{
     position: relative;
+    right : 10rem;
     /* right : 100rem; */
+    width : 100vw;
+    margin-right: 20rem;
    }
   
   .hello,
