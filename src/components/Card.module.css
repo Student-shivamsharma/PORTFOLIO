@@ -12,10 +12,11 @@
   border : 10px solid rgba(251,161,40);
   border-radius: 15px;
   padding: 0px 26px 2rem 26px;
+  /* padding: 70px; */
 }
 
 .trophy{
-  font-size: 5rem;
+  font-size: 1rem;
   color : rgba(251,161,40);
   transform: scale(0.6);
 }
@@ -26,7 +27,6 @@
   border: none;
   padding: 15px;
   width: 100px;
-  font-size: 1.3rem;
 
 }
 @media  (max-width : 480px){

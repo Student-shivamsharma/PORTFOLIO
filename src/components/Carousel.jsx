@@ -35,15 +35,15 @@ const Carousel = () => {
     },
     {
       img: tictactoe,
-      review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad obcaecati repellat corrupti placeat eum corporis labore saepe sit suscipit exercitationem voluptatum recusandae, pariatur id ratione at expedita facere eligendi esse. Laudantium quas est quasi ea sapiente.",
+      review: "Lorem ipsum dolor sit amet consectetur aceat eum corporis labore saepe sit suscipit exercitaantium quas est quasi ea sapiente.",
       link : "https://student-shivamsharma.github.io/TICtactoe/",
       name : "TIC_TAC_TOE GAME"
     },
     {
       img: bakery,
       review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad obcaecati repellat corrupti placeat eum corporis labore saepe sit suscipit exercitationem voluptatum recusandae, pariatur id ratione at expedita facere eligendi esse. Laudantium quas est quasi ea sapiente.",
-      link : "https://student-shivamsharma.github.io/AMAZON-CLONE/",
-      name : "Amazon"
+      link : "https://student-shivamsharma.github.io/Second-Task/",
+      name : "Login Page"
     },
   ];
 
