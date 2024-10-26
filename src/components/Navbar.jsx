@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <>
-    <div className={styles.navbar}>
+    <div className={styles.navbar} id="Navbar">
       <div className={styles.navLeft}>
         <div className={styles.navName}>Portfolio</div>
         <Toggle />
@@ -26,13 +26,13 @@ const Navbar = () => {
         <div className={styles.navRight}></div>
         <div className={styles.navList} ref={menuRef}>
           <ul>
-            <Link spy={true} to='Navbar' smooth={true}>
+            <Link spy={true} to='Main' smooth={true}>
               <li>Home</li>
             </Link>
             <Link spy={true} to='Aboutme' smooth={true}>
               <li>About me</li>
             </Link>
-            <Link spy={true} to='Services' smooth={true}>
+            <Link spy={true} to='Skills' smooth={true}>
               <li>Skills</li>
             </Link>
             <Link spy={true} to='Carousel' smooth={true}>
@@ -40,6 +40,9 @@ const Navbar = () => {
             </Link>
             <Link spy={true} to='Experience' smooth={true}>
               <li>Experience</li>
+            </Link>
+            <Link spy={true} to='Contact' smooth={true}>
+              <li>Contact</li>
             </Link>
           </ul>
         </div>
