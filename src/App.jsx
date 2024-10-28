@@ -1,14 +1,14 @@
 
 import './App.css'
-import Navbar from './components/Navbar'
+import Navbar from './components/navbar'//
 import Main from './components/Main'
 import Skills from './components/Skills'
 import Experience from './components/Experience'
-import Carousel from './components/Carousel'
+import Carousel from './components/carousel'//
 import Contact from './components/Contact'
 import Design from './components/Design'
 import {themeContext} from './Context'
- import {useContext} from 'react'
+import {useContext} from 'react'
 import Aboutme from './components/Aboutme'
 function App() {
   const theme = useContext(themeContext)

@@ -1,6 +1,4 @@
 
-
-
 import React from 'react';
 import styles from './Carousel.module.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -48,22 +46,22 @@ const Carousel = () => {
   ];
 
   return (
-    <div className={styles.wrapper} style={{width : '100vw' , overflow : 'hidden'}} id="Carousel">
+    <div className={styles.wrapper} style={{width : '150vw' , overflow : 'hidden'}} id="Carousel">
       <div className={styles.heading}>
-        <span>Clients always get</span>
-        <span>Exceptional Work</span>
-        <span>From me..</span>
+        <span>My Projects Web Dev</span>
+        <span>Exceptional Work </span>
+        <span> From me..</span>
         </div>
 
       <Swiper
         modules={[Pagination]}
         slidesPerView={1}
         pagination={{ clickable: true }}
-        style={{width : '80vw'}}
+        style={{width : '160vw' , height : '60vh'}}
       >
         {clients.map((client, index) => (
           <SwiperSlide key={index}>
-            <div className={styles.test}>
+            <div className={styles.test} style={{ "width" : "130vw" , height : '50vh'}}>
               <img src={client.img} height = "200px" alt={`Client ${index + 1}`} />
               <span>{client.review}</span>
               <a href={client.link} className={styles.link}>{client.name}</a>

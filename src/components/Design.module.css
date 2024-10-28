@@ -31,14 +31,14 @@ body{
   width : 100%;
 }
 .email{
-  font-size: 3rem;
+  font-size: 2rem;
   /* margin-top: 10rem; */
   /* margin-bottom: 2rem; */
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .icons{
-  font-size: 2rem;
-  background-color : black;
+  font-size: 1rem;
+  color : black;
 }
 
 @media (max-width : 500px) {

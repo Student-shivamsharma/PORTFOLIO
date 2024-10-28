@@ -30,7 +30,7 @@ const Navbar = () => {
               <li>Home</li>
             </Link>
             <Link spy={true} to='Aboutme' smooth={true}>
-              <li>About me</li>
+              <li>About</li>
             </Link>
             <Link spy={true} to='Skills' smooth={true}>
               <li>Skills</li>

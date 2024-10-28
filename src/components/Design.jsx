@@ -9,11 +9,11 @@ const Design = () => {
     <div className={styles.design} id='Design'>
     <img src={wave} alt="" style={{width : '100%' , padding : 0}} />
     <div className={styles.content}>
-      <span className={styles.email}>sharmashivamss005897@gmail.com</span>
+      <span className={styles.email} >sharmashivamss005897@gmail.com</span>
       <div className={styles.icons}>
-        <FaInstagram color='white' size='8.3rem'/>
-        <FaLinkedin  color='white' size='8.3rem'/>
-        <FaSquareGithub  color='white' size='8.3rem'/>
+        <FaInstagram color='black' size='5.3rem'/>
+        <FaLinkedin  color='black' size='5.3rem'/>
+        <FaSquareGithub  color='black' size='5.3rem'/>
       </div>
     </div>
     </div>

@@ -17,7 +17,7 @@
 .navLeft{
   flex: 3;
    display: flex;
-   gap : 18px;
+   gap : 8px;
    align-items: center;
 }
 .navName{
@@ -78,10 +78,10 @@
   color : orange;
   border: 1px solid orange;
 }
-.line{
+/* .line{
   border: 2px solid black;
-  width : 100%;
-}
+  width : 173vmin;
+} */
 
 @media (max-width : 500px){
   .navList{
@@ -93,11 +93,10 @@
 
 
 
-@media(max-width: 700px) {
-  .navConnect {
+/* @media(max-width: 700px) {
+   .navConnect {
     display: none;
-  }
-  
+  } 
   .menuOpen {
     display: block;
     position: fixed;
@@ -123,14 +122,14 @@
     border-radius: 30px;
     top: 0;
     gap: 30px; 
-    /* background-color: #1F0016; */
+    /* background-color: #1F0016; 
     background-color: white;
     border: 10px solid orange;
     width: 350px;
     height: 100%;
     z-index: 2;
     transition: right 0.5s;
-    /* right: -350px; */
+    /* right: -350px; 
     right : -640px;
   }
   
@@ -161,4 +160,4 @@
   .hidden {
     display: none; 
   }
-}
+} */

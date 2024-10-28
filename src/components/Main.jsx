@@ -18,9 +18,9 @@ const Main = () => {
       </div>
       <button className={styles.mainButton}>Hire Me</button>
       <div className={styles.mainIcons}>
-        <a href="https://www.instagram.com/shivamsharma6842?igsh=MWpwZG9mYTJyOWt1bw=="> <FaInstagram /></a>
-        <a href="https://www.linkedin.com/in/shivam-sharma-450178302"> <FaLinkedin /></a>
-        <a href="https://github.com/Student-shivamsharma"><FaSquareGithub /></a>
+        <a href="https://www.instagram.com/shivamsharma6842?igsh=MWpwZG9mYTJyOWt1bw=="> <FaInstagram  class={styles.i}/></a>
+        <a href="https://www.linkedin.com/in/shivam-sharma-450178302"> <FaLinkedin class={styles.i} /></a>
+        <a href="https://github.com/Student-shivamsharma"><FaSquareGithub  class={styles.i}/></a>
        
     </div>
     </div>

@@ -52,7 +52,7 @@ animation: scroll linear;
   
 }
 
-.right >form
+.right > form
 {
   display: flex;
   flex-direction: column;
@@ -64,18 +64,20 @@ animation: scroll linear;
   font-weight: bolder;
   color : black;
 }
-
+form input{
+  border: none;
+}
 .right .user{
   width: 30vw;
   height: 2rem;
   padding: 0.3em;
   outline: none;
   border: 2px solid var(--orange);
-  border-radius: 8px;
+  /* border-radius: 8px; */
   font-size: 16px;   
-  border: 4px solid orange;
-  border: 5px solid black;
-  box-shadow: 4px 4px 4px black;
+  /* box-shadow: 4px 4px 4px orange; */
+  border: none;
+  border-bottom: 4px solid orangered;
 }
 
 .right input{
@@ -87,13 +89,18 @@ animation: scroll linear;
   font-size: 1.3rem;
   font-weight: bolder;
   color : black;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   border: 5px solid black;
-  box-shadow: 4px 4px 4px black;
+  /* box-shadow: 4px 7px 4px orange; */
+  backdrop-filter: blur(20px);
+  border: none;
+  border-bottom: 4px solid orangered;
+  backdrop-filter: blur(20px);
+  
 }
 
 textarea{
-  height: 4rem!important;
+  height: 4rem;
   border: 5px solid black;
 }
 

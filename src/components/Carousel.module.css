@@ -9,13 +9,14 @@
         flex-direction: column;
         gap: 2rem;
         position: relative;
-        max-width: 100%; 
         box-sizing: border-box; 
         overflow: hidden; 
         animation: scroll linear;
         animation-timeline: view();
         animation-range: entry 0;
         margin-bottom: 3rem;
+        font-size: 1.1rem;
+        width : 500vmin;
       }
       @keyframes scroll{
         from{
@@ -27,9 +28,6 @@
           scale : 1;
         }
       }
-      .heading {
-        align-self: start;
-      }
       
       .heading > * {
         font-size: 2rem;
@@ -40,17 +38,7 @@
         color: orange;
       }
       
-      .blur1 {
-        position: absolute;
-        left: 20rem; 
-        top: 16rem;
-      }
       
-      .blur2 {
-        position: absolute;
-        top: 9rem;
-        left: 0;
-      }
       
       .link {
         color: black;
@@ -62,12 +50,13 @@
         align-items: center;
         justify-content: space-evenly;
         padding: 2rem;
-        width: 100%;
-        max-width: 30rem; 
-        height: auto; 
+        width: 120vmin;
+        /* max-width: 30rem;  */
+        /* height: auto;  */
         box-shadow: 4px 4px 4px orange;
         border-radius: 20px;
-        backdrop-filter: blur(15px);
+      
+       
       }
       
       .test > img {
@@ -107,15 +96,25 @@
         }
       }
       
-      @media (max-width: 480px) {
+      @media (max-width: 500px) {
         .wrapper {
-          padding: 0; 
+          /* padding: 0; 
           position: relative;
-          right: 0;
+          right: 0; */
+          position: relative;
+          left : 18rem;
+          width : 10rem;
+          margin-top: 5rem;
+        }
+        .heading{
+          /* display: flex; */
+          width : 100%;
         }
         .test > img {
           width: 5rem; 
           height: 5rem;
         }
+
+       
       }
       

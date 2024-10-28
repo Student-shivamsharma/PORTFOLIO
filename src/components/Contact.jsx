@@ -33,22 +33,22 @@ const Contact = () => {
     <div className={styles.left}>
       <div className={styles.awesome}>
         <span>Let's talk</span>
-        <span>Contact me</span>
+        <span style={{"font-size" : "2rem" , "font-weight" : "bolder"}}>Contact me</span>
         <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, est.</span>
         <span><i><MdMessage/></i>shivam2311155@akgec.ac.in</span>
         <span><i><IoCall/></i>+91 9105636155</span>
         <span><i><FaLocationCrosshairs/></i>U.P India</span>
-        <div className="blur" style={{background : "red"}}></div>
+        
       </div>
     </div>
 
 
   <div className={styles.right}>
     <form action="" ref={form} onSubmit={sendEmail}>
-      <input type="text"  placeholder='Name' className={styles.name} />
-      <input type="email"  placeholder='Email' className={styles.email} />
+      <input type="text"  placeholder='Name' className={styles.name} style={{"padding" : "5px"}} />
+      <input type="email"  placeholder='Email' className={styles.email} style={{"padding" : "5px"}} />
       <textarea name="maessage" className={styles.user} placeholder='Message me'></textarea>
-      <input type="submit" value="send" className="button" />
+      <input type="submit" value="send" className="button" style={{"padding" : "5px"}}/>
       <span>{msg && "Thanks for Contacting"}</span>
     </form>
   </div>
