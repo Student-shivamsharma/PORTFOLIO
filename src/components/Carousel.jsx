@@ -46,7 +46,7 @@ const Carousel = () => {
   ];
 
   return (
-    <div className={styles.wrapper} style={{width : '150vw' , overflow : 'hidden'}} id="Carousel">
+    <div className={styles.wrapper} style={{width : '100vw' , overflow : 'hidden'}} id="Carousel">
       <div className={styles.heading}>
         <span>My Projects Web Dev</span>
         <span>Exceptional Work </span>
@@ -57,11 +57,11 @@ const Carousel = () => {
         modules={[Pagination]}
         slidesPerView={1}
         pagination={{ clickable: true }}
-        style={{width : '160vw' , height : '60vh'}}
+        style={{width : '80vw' , height : '60vh'}}
       >
         {clients.map((client, index) => (
           <SwiperSlide key={index}>
-            <div className={styles.test} style={{ "width" : "130vw" , height : '50vh'}}>
+            <div className={styles.test} style={{ "width" : "40vw" , height : '40vh'}}>
               <img src={client.img} height = "200px" alt={`Client ${index + 1}`} />
               <span>{client.review}</span>
               <a href={client.link} className={styles.link}>{client.name}</a>

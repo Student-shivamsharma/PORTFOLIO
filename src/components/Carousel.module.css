@@ -17,6 +17,8 @@
         margin-bottom: 3rem;
         font-size: 1.1rem;
         width : 500vmin;
+        overflow: hidden;
+        
       }
       @keyframes scroll{
         from{

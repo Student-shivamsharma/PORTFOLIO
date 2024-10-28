@@ -123,6 +123,8 @@ h2{
   padding: 10px;
   margin-bottom: 20px;
   border-radius: 1rem;
+  padding: 0;
+  margin: 0;
 }
 @media  (min-width : 500px) and (max-width : 700px){
  .about{
@@ -145,6 +147,7 @@ h2{
     display: block;
     justify-content: center;
     align-items: center;
+    text-align: left;
   }
   .exp{
     width : 400px;
@@ -156,7 +159,7 @@ h2{
   }
   .background{
      width : 400px;
-     height : 340px;
+     height : 400px;
      font-size: 1.5rem;
      text-align: center;
      position: relative;

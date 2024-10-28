@@ -12,7 +12,7 @@ const Navbar = () => {
 
   const toggleMenu = () => {
     setMenuOpen(prev => !prev);
-    menuRef.current.style.right = menuOpen ? "-350px" : "0";
+    menuRef.current.style.right = menuOpen ? "-450px" : "0";
   };
 
   return (

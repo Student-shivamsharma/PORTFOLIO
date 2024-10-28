@@ -1,10 +1,10 @@
 
 import './App.css'
-import Navbar from './components/navbar'//
+import Navbar from './components/Navbar'
 import Main from './components/Main'
 import Skills from './components/Skills'
 import Experience from './components/Experience'
-import Carousel from './components/carousel'//
+import Carousel from './components/Carousel'
 import Contact from './components/Contact'
 import Design from './components/Design'
 import {themeContext} from './Context'
