@@ -15,19 +15,19 @@ const Carousel = () => {
   const clients = [
     {
       img: amazon,
-      review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad obcaecati repellat corrupti placeat eum corporis labore saepe sit suscipit exercitationem voluptatum recusandae, pariatur id ratione at expedita facere eligendi esse. Laudantium quas est quasi ea sapiente.",
+      review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad obcaecati repellat corrupti placeat eum corporis labore saepe sit suscipit exercitationem voluptatum recusandae,.",
       link : "https://student-shivamsharma.github.io/AMAZON-CLONE/",
       name : "Amazon Clone"
     },
     {
       img: calculator,
-      review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad obcaecati repellat corrupti placeat eum corporis labore saepe sit suscipit exercitationem voluptatum recusandae, pariatur id ratione at expedita facere eligendi esse. Laudantium quas est quasi ea sapiente.",
+      review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad obcaecati repellat corrupti placeat eum corporis labore saepe sit suscipit exercitationem voluptatum recusandae,",
       link : "https://student-shivamsharma.github.io/Calculator/",
       name : "Calculator"
     },
     {
       img: rockpaperscissor,
-      review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad obcaecati repellat corrupti placeat eum corporis labore saepe sit suscipit exercitationem voluptatum recusandae, pariatur id ratione at expedita facere eligendi esse. Laudantium quas est quasi ea sapiente.",
+      review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad obcaecati repellat corrupti placeat eum corporis labore saepe sit suscipit exercitationem voluptatum recusandae,",
       link : "https://student-shivamsharma.github.io/rockGame/",
       name : "ROCK PAPER SCISSOR"
     },
@@ -61,7 +61,7 @@ const Carousel = () => {
       >
         {clients.map((client, index) => (
           <SwiperSlide key={index}>
-            <div className={styles.test} style={{ "width" : "40vw" , height : '40vh'}}>
+            <div className={styles.test} style={{ "width" : "70vw" , height : '40vh'}}>
               <img src={client.img} height = "200px" alt={`Client ${index + 1}`} />
               <span>{client.review}</span>
               <a href={client.link} className={styles.link}>{client.name}</a>
