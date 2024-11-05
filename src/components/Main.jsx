@@ -3,8 +3,8 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaSquareGithub } from "react-icons/fa6";
 import styles from './Main.module.css'
-import Shivamphot from '../images/Shivamphot.png'
 
+import Shivamphot from '../images/Shivamphot.png'
 
 const Main = () => {
   return (

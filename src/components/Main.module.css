@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr; 
   grid-template-areas: "first second";
-  height: 80vh;
+  height: 100vh;
   /* height : 700px; */
   gap: 20px;
   width: 100%;
@@ -19,6 +19,8 @@
   animation: scroll 3s linear 0s;
   animation-timeline: view();
   animation-range: entry 0;
+  position: relative;
+  bottom: 5rem;
 }
 
 @keyframes scroll{
@@ -46,7 +48,6 @@
   margin-left: 300px;
   /* animation: load 10s ease-in-out 0s infinite; */
   overflow: hidden;
-  background-color: red;
 }
 @keyframes load{
    from {

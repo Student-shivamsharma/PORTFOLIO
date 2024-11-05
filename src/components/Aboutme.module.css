@@ -14,6 +14,7 @@ h1{
 .skillitems{
   margin: 2px;
   position: relative;
+  text-align: left;
 }
 .t1{
  background-color: aqua;

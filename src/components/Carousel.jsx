@@ -46,7 +46,7 @@ const Carousel = () => {
   ];
 
   return (
-    <div className={styles.wrapper} style={{width : '100vw' , overflow : 'hidden'}} id="Carousel">
+    <div className={styles.wrapper} style={{width : '90vw' , overflow : 'hidden'}} id="Carousel">
       <div className={styles.heading}>
         <span>My Projects Web Dev</span>
         <span>Exceptional Work </span>
